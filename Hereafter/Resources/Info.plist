@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>Hereafter</string>
+    <key>CFBundleDisplayName</key>
+    <string>Hereafter</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.loudlabs.hereafter</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+        <key>UIApplicationSupportsMultipleScenes</key>
+        <false/>
+    </dict>
+
+    <!-- Location permissions — conversational, warm, honest -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Hereafter anchors your messages to the places where you write them. We need your location to know where "here" is.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Hereafter can let you know when you return to a place where a message has unlocked — even when the app isn't open. This is the magic moment.</string>
+
+    <!-- Photo access -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Attach a photo to your message — one image to capture this moment.</string>
+
+    <!-- Background modes for geofencing (Phase 2) -->
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>location</string>
+    </array>
+</dict>
+</plist>
